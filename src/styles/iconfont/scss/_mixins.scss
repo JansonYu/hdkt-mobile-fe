@@ -1,0 +1,23 @@
+// Mixins
+// --------------------------
+
+@mixin icon($icon) {
+    @include icon-font();
+    content: $icon;
+}
+
+@mixin icon-font() {
+    font-family: IconFont;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    *margin-right: .3em; // fixes ie7 issues
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}

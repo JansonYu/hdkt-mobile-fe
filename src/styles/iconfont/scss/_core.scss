@@ -1,0 +1,30 @@
+[class^="icon-"],
+[class*=" icon-"] {
+    @include icon-font();
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0;
+}
+a {
+    [class^="icon-"],
+    [class*=" icon-"] {
+        display: inline;
+    }
+}

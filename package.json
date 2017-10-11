@@ -1,0 +1,17 @@
+{
+  "name": "hdkt-mobile-fe",
+  "version": "1.0.0",
+  "description": "React, Flux, React-Router, Webpack, HMR!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {},
+  "author": "Fengbo",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.4",
+    "ip": "^1.1.5"
+  }
+}

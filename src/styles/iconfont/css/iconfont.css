@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 424877 */
+    src: url('//at.alicdn.com/t/font_424877_7gdercevqtihpvi.eot');
+    src: url('//at.alicdn.com/t/font_424877_7gdercevqtihpvi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_424877_7gdercevqtihpvi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_424877_7gdercevqtihpvi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_424877_7gdercevqtihpvi.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 0.426667rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: "iconfont" !important;;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.426667rem;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    *margin-right: .3em; // fixes ie7 issues
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0;
+}
+
+a [class^="icon-"], a [class*=" icon-"] {
+    display: inline;
+}
+
+.icon-lesson:before {
+    content: "\e61a";
+}
+
+.icon-class:before {
+    content: "\e61b";
+}
+
+.icon-interact:before {
+    content: "\e61c";
+}
+
+.icon-stu:before {
+    content: '\e611';
+}
+

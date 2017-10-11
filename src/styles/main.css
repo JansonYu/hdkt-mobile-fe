@@ -1,0 +1,208 @@
+html {
+    background-color: #e4e5ea;
+}
+
+.header-wrapper {
+    position: relative;
+    width: 100%;
+    height: 1.173333rem;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: #FFFFFF;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header-primary {
+    background: #2D8DFF;
+    color: #fff;
+}
+
+.header-back {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 1.173333rem;
+    height: 100%;
+}
+
+.header-back svg {
+    display: block;
+    width: 0.45rem;
+    height: 0.4rem;
+    stroke: #F5A623;
+}
+
+.header-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    line-height: 1.173333rem;
+    max-width: 50%;
+    font-size: 0.426667rem;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.tabbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: inset 0 0 0 0 #D4D8DE;
+    z-index: 1000;
+}
+
+.tabbar-item {
+    width: 25%;
+    text-align: center;
+}
+
+.tabbar-item a {
+    display: block;
+    font-size: 0.266667rem;
+    color: #9496AB;
+    padding-bottom: 0.026667rem;
+}
+
+.tabbar-item i {
+    max-height: 0.96rem;
+    line-height: 1.066667rem;
+    text-align: center;
+    display: block;
+    font-size: 0.6rem;
+}
+
+.tabbar-item a.active, .tabbar-item a.active i {
+    color: #2D8DFF;
+}
+
+/*通用样式*/
+.card-group {
+    background: #FFFFFF;
+    box-shadow: 0.05rem 0.1rem 0.125rem 0 rgba(161,161,161,0.26);
+    border-radius: 0.1rem;
+}
+
+.classroom-grade, .classroom-stu-count {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+     -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+}
+
+/*主页*/
+.classroom-wrap {
+    padding: 0.266667rem;
+}
+
+.classroom-grid {
+    width: 100%;
+    margin-bottom: 0.266667rem;
+    overflow: hidden;
+}
+
+.classroom-grid .classroom-header {
+    width: 100%;
+    min-height: 3.28rem;
+    padding: 0.533333rem 0.533333rem 0 0.533333rem;
+    background-image: url("../images/classroom/bg.jpg");
+    background-size: cover;
+    border-radius: 0.1rem 0.1rem 0 0;
+}
+
+.classroom-header h2 a {
+    display: inline-block;
+    font-size: 0.586667rem;
+    margin-left: 0.266667rem;
+    color: #FFFFFF;
+}
+
+.classroom-detail {
+    margin-top: 0.533333rem;
+    overflow: hidden;
+}
+
+.classroom-detail p {
+    font-size: 0.373333rem;
+    color: #FFFFFF;
+    margin-bottom: 0.106667rem;
+}
+
+.classroom-detail p:last-child {
+    margin-bottom: 0;
+}
+
+.subject-sign {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    vertical-align: middle;
+    background: #2D8DFF;
+    border-radius: 100%;
+    font-size: 0.48rem;
+    color: #FFFFFF;
+}
+
+.classroom-stu-count span {
+    display: inline-block;
+    margin-left: 0.106667rem;
+}
+
+.classroom-section {
+    padding: 0.4rem 0.266667rem 0.533333rem 0.266667rem;
+    background-color: #fff;
+}
+
+.classroom-section h4 {
+    font-size: 0.266667rem;
+    color: #9496AB;
+}
+
+.homework-type {
+    display: inline-block;
+    font-size: 0.266667rem;
+    padding: 0.026667rem 0.16rem;
+    background: #A6A9BF;
+    border-radius: 2.666667rem;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.homework-task-item {
+    margin-top: 0.213333rem;
+}
+
+.homework-task-item .homework-title {
+    display: inline-block;
+    font-size: 0.32rem;
+    color: #303451;
+    vertical-align: middle;
+}
+
+.homework-ratio b {
+    font-size: 0.533333rem;
+    color: #303451;
+    font-weight: 400;
+}
+
+.homework-ratio span {
+    font-size: 0.266667rem;
+    color: #9496AB;
+}
