@@ -19,6 +19,9 @@ html {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+.header-wrapper.blue{
+    background: #2D8DFF;
+}
 
 .header-primary {
     background: #2D8DFF;
@@ -36,8 +39,31 @@ html {
     justify-content: center;
     width: 1.173333rem;
     height: 100%;
+    background: url(../images/back.svg) no-repeat;
+    background-size: 50% 50%;
+    background-position: 50%;
 }
-
+.header-right{
+    position: absolute;
+    font-size: 0.32rem;
+    right: 0.533rem;
+    top:0.427rem;
+    color:#fff;
+}
+.header-right.more{
+    
+}
+.fixed-add-to{
+    position: fixed;
+    width: 1.2rem;
+    height: 1.2rem;
+    right: 0.533rem;
+    bottom: 30px;
+    border-radius: 0.6rem;
+    background: url(../images/add-to.svg) no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 0.267rem #2D8DFF;
+}
 .header-back svg {
     display: block;
     width: 0.45rem;
@@ -61,8 +87,10 @@ html {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 1.333rem;
     background: #FFFFFF;
     box-shadow: inset 0 0 0 0 #D4D8DE;
+    border-top: 1px solid #E9EBEE;
     z-index: 1000;
 }
 
@@ -79,13 +107,43 @@ html {
 }
 
 .tabbar-item i {
-    max-height: 0.96rem;
-    line-height: 1.066667rem;
-    text-align: center;
     display: block;
-    font-size: 0.6rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0 auto;
 }
-
+.tabbar-item i.class{
+    background: url('../images/class.svg');
+    background-size: 100% 100%;
+}
+.tabbar-item a.active i.class{
+    background: url('../images/class_active.svg') no-repeat;
+    background-size: 100% 100%;
+}
+.tabbar-item i.prepare{
+    background: url('../images/prepare.svg');
+    background-size: 100% 100%;
+}
+.tabbar-item a.active i.prepare{
+    background: url('../images/prepare_active.svg') no-repeat;
+    background-size: 100% 100%;
+}
+.tabbar-item i.interactive{
+    background: url('../images/interactive.svg');
+    background-size: 100% 100%;
+}
+.tabbar-item a.active i.interactive{
+    background: url('../images/interactive_active.svg') no-repeat;
+    background-size: 100% 100%;
+}
+.tabbar-item i.more{
+    background: url('../images/more.svg');
+    background-size: 100% 100%;
+}
+.tabbar-item a.active i.more{
+    background: url('../images/more_active.svg') no-repeat;
+    background-size: 100% 100%;
+}
 .tabbar-item a.active, .tabbar-item a.active i {
     color: #2D8DFF;
 }

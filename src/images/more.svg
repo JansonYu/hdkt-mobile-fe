@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="30px" viewBox="0 0 40 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>2_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-5.000000, -2.000000)">
+            <g id="2" transform="translate(5.000000, 2.000000)">
+                <path d="M11.7099609,16 C12.8145304,16 13.7099609,15.1045695 13.7099609,14 C13.7099609,12.8954305 12.8145304,12 11.7099609,12 C10.6053914,12 9.70996094,12.8954305 9.70996094,14 C9.70996094,15.1045695 10.6053914,16 11.7099609,16 Z" id="Oval" stroke="#9496AB"></path>
+                <path d="M19.7099609,16 C20.8145304,16 21.7099609,15.1045695 21.7099609,14 C21.7099609,12.8954305 20.8145304,12 19.7099609,12 C18.6053914,12 17.7099609,12.8954305 17.7099609,14 C17.7099609,15.1045695 18.6053914,16 19.7099609,16 Z" id="Oval-Copy" stroke="#9496AB"></path>
+                <path d="M27.7099609,16 C28.8145304,16 29.7099609,15.1045695 29.7099609,14 C29.7099609,12.8954305 28.8145304,12 27.7099609,12 C26.6053914,12 25.7099609,12.8954305 25.7099609,14 C25.7099609,15.1045695 26.6053914,16 27.7099609,16 Z" id="Oval-Copy-2" stroke="#9496AB"></path>
+                <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="40" height="30"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

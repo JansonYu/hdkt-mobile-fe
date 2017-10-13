@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="134px" height="106px" viewBox="0 0 134 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>group_6_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FBDA61" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-2">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C96DD8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FF8974" offset="0%"></stop>
+            <stop stop-color="#FF566C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="设计图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-27.000000, -91.000000)">
+            <g id="Group-6" transform="translate(27.000000, 91.000000)">
+                <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="134" height="106"></rect>
+                <g id="Group" transform="translate(28.000000, 23.000000)">
+                    <ellipse id="Oval-Copy-7" fill="#F8E81C" opacity="0.800000012" transform="translate(16.139086, 21.327829) scale(-1, -1) rotate(-47.000000) translate(-16.139086, -21.327829) " cx="16.1390855" cy="21.3278288" rx="2.42387857" ry="2.4251269"></ellipse>
+                    <ellipse id="Oval-Copy-5" fill="#FFFFFF" opacity="0.200000003" transform="translate(39.994823, 43.779351) scale(-1, -1) rotate(-47.000000) translate(-39.994823, -43.779351) " cx="39.9948228" cy="43.7793513" rx="1.67806978" ry="1.67893401"></ellipse>
+                    <ellipse id="Oval-Copy-6" fill="#FFFFFF" opacity="0.200000003" transform="translate(39.086104, 17.947719) scale(-1, -1) rotate(-47.000000) translate(-39.086104, -17.947719) " cx="39.086104" cy="17.9477187" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval-Copy-14" fill="url(#linearGradient-1)" transform="translate(100.196730, 62.348319) scale(1, -1) rotate(-47.000000) translate(-100.196730, -62.348319) " cx="100.19673" cy="62.3483195" rx="2.79678296" ry="2.79822335"></ellipse>
+                    <polygon id="Triangle" fill="url(#linearGradient-2)" transform="translate(20.994352, 59.783549) scale(1, -1) rotate(42.000000) translate(-20.994352, -59.783549) " points="20.9943517 56.9853255 23.4182302 62.5817722 18.5704731 62.5817722"></polygon>
+                    <circle id="Oval-5-Copy-45" stroke="#A875DF" stroke-width="1.1" cx="74.5" cy="22.5" r="3.5"></circle>
+                    <circle id="Oval-5-Copy-50" stroke="#758EDF" stroke-width="1.1" cx="2" cy="61" r="2"></circle>
+                    <circle id="Oval-5-Copy-55" stroke="#758EDF" stroke-width="1.1" cx="54" cy="8" r="1"></circle>
+                    <circle id="Oval-5-Copy-60" stroke="#758EDF" stroke-width="1.1" cx="13" cy="2" r="1"></circle>
+                    <circle id="Oval-5-Copy-65" stroke="#758EDF" stroke-width="1.1" cx="0.5" cy="26.5" r="1"></circle>
+                    <path d="M39,74 C59.4345357,74 76,57.4345357 76,37 C76,16.5654643 59.4345357,0 39,0 C18.5654643,0 2,16.5654643 2,37 C2,46.2588401 5.40084806,54.7233696 11.0215282,61.2125725 C17.8058564,69.0452335 27.8243044,74 39,74 Z" id="Oval-4-Copy-2" fill-opacity="0.1" fill="#FF596C"></path>
+                    <g id="教师档案-copy-5" transform="translate(22.000000, 21.000000)" fill-rule="nonzero" fill="url(#linearGradient-3)">
+                        <path d="M29.9215907,6.18742667 C29.9215907,4.12507333 28.1460207,4.12507333 28.1460207,4.12507333 L6.82895337,4.12507333 C6.82895337,4.12507333 5.05327461,4.12507333 5.05327461,6.18742667 L5.05327461,8.24996333 L29.9215544,8.24996333 L29.9215544,6.18742667 L29.9215907,6.18742667 Z M24.5917617,0 L10.3820881,0 C10.3820881,0 8.60662694,0 8.60662694,2.06253667 L26.3683834,2.06253667 C26.3683834,2.60532336e-16 24.5905648,2.60532336e-16 24.5905648,2.60532336e-16 L24.5917979,2.60532336e-16 L24.5917617,0 Z M33.472513,8.24996333 L32.4220415,7.02925667 L32.4220415,10.3125 L2.55296891,10.3125 L2.55296891,7.02925667 L1.50249741,8.24996333 C0.45180829,9.47067 -0.302088083,9.79935 0.122880829,12.3776033 C0.54215544,14.9452967 2.58209326,29.03219 2.88309326,30.93739 C3.21662694,33.02827 5.05458031,32.9999267 5.05458031,32.9999267 L29.9226788,32.9999267 C29.9226788,32.9999267 31.7605959,33.0282333 32.0941658,30.93739 C32.3975233,29.03219 34.4350674,14.9452233 34.8566269,12.3776033 C35.2793109,9.79931333 34.5265026,9.47202667 33.4737098,8.24996333 L33.472513,8.24996333 Z M24.5917617,19.3875 C24.5917617,19.3875 24.5917617,21.4500367 22.813943,21.4500367 L12.1587461,21.4500367 C10.3833212,21.4500367 10.3833212,19.3875 10.3833212,19.3875 L10.3833212,15.2625733 L12.8704249,15.2625733 L12.8704249,18.5625367 L22.1014301,18.5625367 L22.1014301,15.2625733 L24.5927772,15.2625733 L24.5927772,19.3875 L24.5917979,19.3875 L24.5917617,19.3875 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

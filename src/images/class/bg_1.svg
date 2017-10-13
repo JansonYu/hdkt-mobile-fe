@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="356px" height="123px" viewBox="0 0 356 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>group_18_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="55.480361%" y1="100%" x2="55.4803603%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FF4669" offset="0%"></stop>
+            <stop stop-color="#FF8A74" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0.909395912" y="0" width="355" height="123"></rect>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-4">
+            <stop stop-color="#F43F4E" offset="0%"></stop>
+            <stop stop-color="#FC7069" offset="37.0276626%"></stop>
+            <stop stop-color="#FC7069" offset="79.2407311%"></stop>
+            <stop stop-color="#F54A54" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FBDA61" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-6">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C96DD8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="设计图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(1.000000, 0.000000)">
+            <g id="Group-18" transform="translate(-1.000000, 0.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <g id="Group-25" mask="url(#mask-3)">
+                    <g transform="translate(-25.845727, 18.000000)">
+                        <g id="Group-19" transform="translate(0.000000, 46.000000)">
+                            <path d="M1.5053286,2.48054947 C12.623401,1.43514086 21.3517918,0.912436548 27.6905012,0.912436548 C126.950719,0.912436548 197.375533,77.7569531 254.957976,77.7569531 C282.575113,77.7569531 331.191609,64.8730198 400.807466,39.1051533 L401.007154,94 L0.559344326,94 L1.5053286,2.48054947 Z" id="Path" fill="url(#linearGradient-4)"></path>
+                            <path d="M113.36045,64.4359062 C167.015961,42.8119687 223.82962,32 283.801426,32 C316.522587,32 358.952855,40.4260885 411.092231,57.2782656 L410.655844,64.4359062 L169.089524,64.4359062 L113.36045,64.4359062 Z" id="Path" fill="#FFFFFF" opacity="0.100000001"></path>
+                        </g>
+                        <g id="Group-13" transform="translate(149.158487, 0.000000)">
+                            <ellipse id="Oval-Copy-7" fill="#F8E81C" opacity="0.800000012" cx="132.376637" cy="92.25" rx="2.4102804" ry="2.4251269"></ellipse>
+                            <ellipse id="Oval-Copy-16" fill="#FFFFFF" opacity="0.200000003" cx="1.85901802" cy="92.0634518" rx="1.11243711" ry="1.11928934"></ellipse>
+                            <ellipse id="Oval-Copy-17" fill="#FFFFFF" opacity="0.200000003" cx="31.5240075" cy="99.8984772" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval-Copy-10" fill="#FFFFFF" opacity="0.200000003" cx="25.4056035" cy="88.1459391" rx="1.66865566" ry="1.67893401"></ellipse>
+                            <ellipse id="Oval-Copy-5" fill="#FFFFFF" opacity="0.200000003" cx="132.526223" cy="59.4911168" rx="1.66865566" ry="1.67893401"></ellipse>
+                            <ellipse id="Oval-Copy-6" fill="#FFFFFF" opacity="0.200000003" cx="114.356417" cy="77.7728426" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval-Copy-14" fill="url(#linearGradient-5)" transform="translate(105.203254, 2.798223) scale(-1, 1) translate(-105.203254, -2.798223) " cx="105.203254" cy="2.79822335" rx="2.78109277" ry="2.79822335"></ellipse>
+                            <polygon id="Triangle" fill="url(#linearGradient-6)" transform="translate(157.050881, 62.472345) scale(-1, 1) rotate(89.000000) translate(-157.050881, -62.472345) " points="157.050881 59.6741218 159.461161 65.2705685 154.6406 65.2705685"></polygon>
+                            <polygon id="Triangle" fill="#FFFFFF" opacity="0.200000003" transform="translate(161.601241, 5.603260) scale(-1, 1) rotate(78.000000) translate(-161.601241, -5.603260) " points="161.601241 4.09652454 162.899084 7.10999584 160.303397 7.10999584"></polygon>
+                        </g>
+                        <g id="Group-4" transform="translate(354.543007, 93.596038) rotate(5.000000) translate(-354.543007, -93.596038) translate(311.043007, 59.596038)" opacity="0.300000012">
+                            <g id="Group-12" transform="translate(0.000000, 0.000000)" fill="#FFFFFF">
+                                <polygon id="Fill-1" transform="translate(47.694060, 33.960321) rotate(-45.000000) translate(-47.694060, -33.960321) " points="30.7423527 5.81996377 58.616885 64.9401225 64.6457682 62.0999241 36.7712359 2.98051932"></polygon>
+                                <polygon id="Fill-2" transform="translate(48.117678, 32.386328) rotate(-45.000000) translate(-48.117678, -32.386328) " points="63.5621644 61.2361692 60.5477229 62.6558914 32.6731906 3.53648665 35.6876321 2.11676443"></polygon>
+                                <polygon id="Fill-4" transform="translate(10.200836, 19.255570) rotate(-45.000000) translate(-10.200836, -19.255570) " points="8.86108445 27.2902325 15.2271687 24.2917008 5.17450386 11.2209071"></polygon>
+                                <polygon id="Fill-5" transform="translate(5.664033, 18.307136) rotate(-45.000000) translate(-5.664033, -18.307136) " points="4.99415698 22.3246556 8.17682191 20.8250128 3.15124387 14.289616"></polygon>
+                            </g>
+                            <g id="Group-11" transform="translate(16.904629, 4.000000)" fill="#FFFFFF">
+                                <polygon id="Fill-6" transform="translate(37.326638, 26.534409) rotate(-45.000000) translate(-37.326638, -26.534409) " points="47.9533749 51.748992 42.64491 53.3730396 26.6999021 1.31982533 32.0083669 -0.304222285"></polygon>
+                                <polygon id="Fill-7" transform="translate(38.091389, 25.303474) rotate(-45.000000) translate(-38.091389, -25.303474) " points="47.3908205 50.9240689 44.7369653 51.7360927 28.7919573 -0.317121596 31.4458125 -1.12914541"></polygon>
+                                <polygon id="Fill-9" transform="translate(8.192676, 9.319431) rotate(-45.000000) translate(-8.192676, -9.319431) " points="5.95372166 16.1624466 4.82670071 2.47641487 11.5586518 14.4471688"></polygon>
+                                <polygon id="Fill-10" transform="translate(5.587432, 8.616137) rotate(-45.000000) translate(-5.587432, -8.616137) " points="7.27041936 11.1803835 3.90444379 5.19462956 4.46795427 12.0376454"></polygon>
+                            </g>
+                            <g id="Group-9" transform="translate(32.352034, 0.147103)" fill="#FFFFFF">
+                                <polygon id="Fill-11" transform="translate(27.352311, 36.503808) rotate(-45.000000) translate(-27.352311, -36.503808) " points="22.6099967 63.778233 17.2019557 62.2612489 32.0946248 9.2293838 37.5026658 10.7463679"></polygon>
+                                <polygon id="Fill-14" transform="translate(9.175414, 7.224362) rotate(-45.000000) translate(-9.175414, -7.224362) " points="5.91240889 12.5575565 11.6229501 14.159739 12.4384184 0.288985056"></polygon>
+                                <polygon id="Fill-15" transform="translate(8.653068, 4.608108) rotate(-45.000000) translate(-8.653068, -4.608108) " points="7.02175414 7.27489404 9.87702476 8.07560833 10.2843817 1.14060833"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

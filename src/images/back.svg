@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>回_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="设计图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-21.000000, -14.000000)" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="返回" transform="translate(21.000000, 14.000000)">
+                <path d="M9.03547334,1.14887429 L1.61778524,8.00019164 L9.03547334,14.851509 C9.29512969,15.1123622 9.29512969,15.5358022 9.03547334,15.7968979 C8.77700172,16.0584677 8.35653756,16.0584677 8.09806594,15.7968979 L0.203158804,8.50707473 C0.0652912882,8.36768205 0.00617045496,8.1823825 0.0151582955,8.00018808 C0.00617045496,7.81799722 0.0652912882,7.63317537 0.203158804,7.49330142 L8.09806594,0.203481828 C8.35653756,-0.0580915407 8.77700172,-0.0580915407 9.03547685,0.203481828 C9.29512969,0.46434219 9.29512969,0.888021048 9.03547334,1.14887429 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
