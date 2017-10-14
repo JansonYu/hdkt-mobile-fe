@@ -43,6 +43,16 @@ html {
     background-size: 50% 50%;
     background-position: 50%;
 }
+.header-back.del{
+    background: none;
+
+}
+.header-back.del .iconfont{
+    color: #fff;
+    font-size: 0.45rem;
+    display: inline-block;
+    margin: 0.267rem 0 0 0.533rem;
+}
 .header-right{
     position: absolute;
     font-size: 0.32rem;
@@ -53,16 +63,33 @@ html {
 .header-right.more{
     
 }
+.header-right.love{
+    width: 0.427rem;
+    height: 0.373rem;
+    background: url(../images/work/love_white.svg) no-repeat;
+    background-size: 100% 100%;
+}
 .fixed-add-to{
     position: fixed;
     width: 1.2rem;
     height: 1.2rem;
+    line-height: 1.2rem;
     right: 0.533rem;
     bottom: 30px;
     border-radius: 0.6rem;
+    text-align: center;
     background: url(../images/add-to.svg) no-repeat;
     background-size: 100%;
     box-shadow: 0 0 0.267rem #2D8DFF;
+}
+.fixed-add-to.empt{
+    background: #2D8DFF;
+    color: #fff;
+    font-size: 0.32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.35rem
 }
 .header-back svg {
     display: block;

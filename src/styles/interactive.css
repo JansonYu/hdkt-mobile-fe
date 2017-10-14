@@ -629,13 +629,14 @@ body {
 .mark-wrap .mark-info {
   padding: 0.533rem;
   min-height: 10.667rem;
+  background: #fff;
 }
 .mark-wrap .mark-info .type {
   font-size: 0.373rem;
   color: #9496AB;
   text-align: center;
   border-top: 1px solid #9496AB;
-  margin-bottom: 0.267rem;
+  margin: 0.267rem 0;
 }
 .mark-wrap .mark-info .type span {
   display: inline-block;
@@ -646,10 +647,12 @@ body {
   position: relative;
   top: -0.267rem;
 }
+.mark-wrap .mark-info .pre-round,
 .mark-wrap .mark-info .round {
   width: 1.28rem;
-  line-height: 1.333rem;
-  border-radius: 0.667rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  border-radius: 0.64rem;
   border: 1px solid #2D8DFF;
   display: inline-block;
   text-align: center;
@@ -657,16 +660,256 @@ body {
   font-size: 0.373rem;
   color: #2D8DFF;
   margin-right: 0.533rem;
+  margin-bottom: 0.8rem;
   position: relative;
 }
+.mark-wrap .mark-info .pre-round:nth-child(5n),
 .mark-wrap .mark-info .round:nth-child(5n) {
   margin-right: 0;
 }
+.mark-wrap .mark-info .pre-round.user,
+.mark-wrap .mark-info .round.user {
+  border: none;
+  width: 1.2rem;
+}
+.mark-wrap .mark-info .pre-round.user .user-logo,
+.mark-wrap .mark-info .round.user .user-logo {
+  width: 1.067rem;
+  height: 1.067rem;
+  border-radius: 0.667rem;
+  display: inline-block;
+  position: relative;
+}
+.mark-wrap .mark-info .pre-round.user .user-logo img,
+.mark-wrap .mark-info .round.user .user-logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.667rem;
+}
+.mark-wrap .mark-info .pre-round.user .user-logo .icon,
+.mark-wrap .mark-info .round.user .user-logo .icon {
+  position: absolute;
+  right: -0.133rem;
+  top: 0.053rem;
+  width: 0.427rem;
+  height: 0.427rem;
+  background: url(../images/work/done.svg) no-repeat;
+  background-size: 100% 100%;
+}
+.mark-wrap .mark-info .pre-round .status,
+.mark-wrap .mark-info .round .status {
+  font-size: 0.32rem;
+  color: #303451;
+}
+.mark-wrap .mark-info .pre-round .status.f14,
+.mark-wrap .mark-info .round .status.f14 {
+  font-size: 0.373rem;
+}
+.mark-wrap .mark-info .pre-round .icon-edit,
+.mark-wrap .mark-info .round .icon-edit {
+  position: absolute;
+  display: inline-block;
+  width: 0.427rem;
+  height: 0.427rem;
+  top: 0;
+  right: -0.133rem;
+  background: url(../images/icon-edit.svg) no-repeat;
+  background-size: 100% 100%;
+}
+.mark-wrap .mark-info .pre-round.sqt,
+.mark-wrap .mark-info .round.sqt {
+  overflow: hidden;
+}
+.mark-wrap .mark-info .pre-round.sqt .status,
+.mark-wrap .mark-info .round.sqt .status {
+  font-size: 0.373rem;
+  color: #303451;
+  position: relative;
+}
+.mark-wrap .mark-info .pre-round.sqt .bar,
+.mark-wrap .mark-info .round.sqt .bar {
+  width: 1.28rem;
+  height: 100%;
+  border: 1px solid #2D8DFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #2D8DFF;
+  display: inline-block;
+}
+.mark-wrap .mark-info .pre-round.task .iconfont,
+.mark-wrap .mark-info .round.task .iconfont {
+  font-size: 0.427rem;
+}
+.mark-wrap .mark-info .pre-round.doc,
+.mark-wrap .mark-info .round.doc {
+  margin-bottom: 0.267rem;
+}
+.mark-wrap .mark-info .pre-round .num,
 .mark-wrap .mark-info .round .num {
   font-style: normal;
   position: absolute;
   display: inline-block;
-  bottom: -0.267rem;
+  width: 1.28rem;
+  text-align: center;
+  bottom: -0.6rem;
+  left: 0;
   font-size: 0.373rem;
   color: #2D8DFF;
+  line-height: 0.533rem;
+}
+.mark-wrap .mark-info .pre-round {
+  height: 1.867rem;
+  border: none;
+  border-radius: 0;
+}
+.mark-wrap .mark-info .pre-round .round {
+  margin: 0;
+}
+.mark-wrap .mark-info .pre-round .t-num {
+  display: inline-block;
+  width: 1.28rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: -0.4rem;
+  font-style: normal;
+}
+/*题目解析*/
+.analysis-wrap {
+  min-height: 100vh;
+  padding: 0.667rem 0.533rem;
+  background: #fff;
+  font-size: 0.373rem;
+  color: #303451;
+}
+.analysis-wrap p {
+  font-size: 0.373rem;
+  line-height: 0.64rem;
+}
+.analysis-wrap .content {
+  border-bottom: 1px solid #9496AB;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.533rem;
+}
+.analysis-wrap .info {
+  font-size: 0.32rem;
+  color: #9496AB;
+  position: relative;
+}
+.analysis-wrap .info span {
+  display: inline-block;
+  width: 2.667rem;
+}
+.analysis-wrap .info .keep {
+  position: absolute;
+  right: 0;
+  top: 0.267rem;
+}
+.analysis-wrap .info .keep i {
+  display: inline-block;
+  width: 0.587rem;
+  height: 0.587rem;
+  margin-right: 0.267rem;
+}
+.analysis-wrap .info .keep i.love {
+  background: url(../images/work/love.svg) no-repeat;
+  background-size: 100% 100%;
+}
+.analysis-wrap .info .keep i.add {
+  background: url(../images/work/add_small.svg) no-repeat;
+  background-size: 100% 100%;
+}
+.analysis-wrap .analysis p {
+  display: flex;
+}
+.analysis-wrap .analysis p .b {
+  width: 1.55rem;
+  flex-shrink: 0;
+  font-size: 0.373rem;
+  color: #2D8DFF;
+}
+/*作业批改*/
+.mark-wrap {
+  background: #F0F1F6;
+  min-height: 100vh;
+}
+.mark-wrap i {
+  font-style: normal;
+}
+.mark-wrap .title {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.373rem;
+  color: #9496AB;
+  padding: 0 0.533rem;
+  position: relative;
+  margin-bottom: 0.267rem;
+  background: #fff;
+}
+.mark-wrap .title .num {
+  font-size: 0.24rem;
+}
+.mark-wrap .title .num .b {
+  font-size: 0.533rem;
+  color: #2D8DFF;
+  display: inline-block;
+  margin-right: 0.107rem;
+}
+.mark-wrap .title .next {
+  position: absolute;
+  right: 0.533rem;
+  color: #9496AB;
+  font-size: 0.373rem;
+}
+.mark-wrap .title .next .iconfont {
+  font-size: 0.373rem;
+  display: inline-block;
+  margin-left: 0.133rem;
+}
+.mark-wrap .panel {
+  background: #fff;
+  margin-bottom: 0.267rem;
+  padding: 0.533rem;
+  font-size: 0.373rem;
+  color: #303451;
+  line-height: 0.6rem;
+}
+.mark-wrap .panel .name {
+  font-size: 0.373rem;
+  color: #2D8DFF;
+}
+.mark-wrap .panel .s-title {
+  ont-size: 0.373rem;
+  color: #9496AB;
+}
+.mark-wrap .panel .flex {
+  display: flex;
+  margin-bottom: 0.267rem;
+}
+.mark-wrap .panel .flex .name {
+  width: 1.6rem;
+  flex-shrink: 0;
+}
+.mark-wrap .panel.mark-info .type {
+  margin-bottom: -0.267rem;
+}
+.tac {
+  text-align: center;
+}
+.submit-wrap {
+  background: #FFF;
+}
+.btn-argu {
+  display: inline-block;
+  width: 4.133rem;
+  height: 1.333rem;
+  line-height: 1.333rem;
+  color: #fff;
+  text-align: center;
+  font-size: 0.48rem;
+  background: #F6A623;
+  margin: 1.067rem auto;
+  box-shadow: 0.053rem 0.133rem 0.107rem 0 rgba(245, 166, 35, 0.22);
+  border-radius: 0.107rem;
 }
