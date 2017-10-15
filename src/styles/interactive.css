@@ -384,6 +384,8 @@ body {
 }
 .work-wrap.fix .del {
   display: inline-block;
+  background: url(../images/icon-del.svg) no-repeat;
+  background-size: 100% 100%;
 }
 /*备课*/
 .prepare-wrap {
@@ -415,10 +417,9 @@ body {
   color: #303451;
 }
 .half-grid .item .icon {
-  width: 2.667rem;
-  height: 2.667rem;
+  width: 3.5rem;
+  height: 3.5rem;
   display: inline-block;
-  margin-bottom: 0.533rem;
 }
 .half-grid .item.design .icon {
   background: url('../images/prepare/design.svg') no-repeat;
