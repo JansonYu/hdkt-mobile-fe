@@ -37,11 +37,11 @@ html {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 1.173333rem;
-    height: 100%;
-    background: url(../images/back.svg) no-repeat;
-    background-size: 50% 50%;
-    background-position: 50%;
+    /*width: 1.173333rem;*/
+    width: 0.267rem;
+    height: 0.427rem;
+    background: url(../images/back.png) no-repeat;
+    background-size: 100% 100%;
 }
 .header-back.del{
     background: none;
@@ -135,8 +135,8 @@ html {
 
 .tabbar-item i {
     display: block;
-    width: 0.8rem;
-    height: 0.8rem;
+    width: 0.9rem;
+    height: 0.9rem;
     margin: 0 auto;
 }
 .tabbar-item i.class{

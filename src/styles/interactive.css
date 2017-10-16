@@ -226,6 +226,16 @@ body {
   font-size: 0.373rem;
   background-size: 100%;
   border-radius: 0.107rem 0.107rem 0 0;
+  position: relative;
+}
+.class-grid .top .more {
+  color: #fff;
+  position: absolute;
+  right: 0.267rem;
+  top: 0.58rem;
+}
+.class-grid .top .more .iconfont {
+  font-size: 0.48rem;
 }
 .class-grid .top .title {
   font-size: 0.587rem;
@@ -291,7 +301,7 @@ body {
 }
 .class-grid.red .top {
   background: #FF4669;
-  background: url(../images/class/bg_1.svg) no-repeat;
+  background: url(../images/class/bg_1.png) no-repeat;
   background-size: 100% 100%;
 }
 .class-grid.red .top .title .type {
@@ -302,7 +312,7 @@ body {
 }
 .class-grid.blue .top {
   background: #5DCBFA;
-  background: url(../images/class/bg_2.svg) no-repeat;
+  background: url(../images/class/bg_2.png) no-repeat;
   background-size: 100% 100%;
 }
 .class-grid.blue .top .title .type {
@@ -313,7 +323,7 @@ body {
 }
 .class-grid.purple .top {
   background: #B275DC;
-  background: url(../images/class/bg_3.svg) no-repeat;
+  background: url(../images/class/bg_3.png) no-repeat;
   background-size: 100% 100%;
 }
 .class-grid.purple .top .title .type {
@@ -324,7 +334,7 @@ body {
 }
 .class-grid.yellow .top {
   background: #FFBE66;
-  background: url(../images/class/bg_4.svg) no-repeat;
+  background: url(../images/class/bg_4.png) no-repeat;
   background-size: 100% 100%;
 }
 .class-grid.yellow .top .title .type {
