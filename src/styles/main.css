@@ -39,6 +39,7 @@ html {
     justify-content: center;
     /*width: 1.173333rem;*/
     width: 0.267rem;
+    margin-left: 0.4rem;
     height: 0.427rem;
     background: url(../images/back.png) no-repeat;
     background-size: 100% 100%;
@@ -49,9 +50,8 @@ html {
 }
 .header-back.del .iconfont{
     color: #fff;
-    font-size: 0.45rem;
+    font-size: 0.40rem;
     display: inline-block;
-    margin: 0.267rem 0 0 0.533rem;
 }
 .header-right{
     position: absolute;
@@ -61,7 +61,11 @@ html {
     color:#fff;
 }
 .header-right.more{
-    
+    color: #fff;
+    right: 0.35rem;
+}
+.header-right.more .iconfont{
+    font-size: 0.43rem;
 }
 .header-right.love{
     width: 0.427rem;

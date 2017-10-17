@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="375px" height="93px" viewBox="0 0 375 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>group_20_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="58.662498%" y1="176.118012%" x2="58.662498%" y2="19.749442%" id="linearGradient-1">
+            <stop stop-color="#59C1FF" offset="0%"></stop>
+            <stop stop-color="#2D8DFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-2">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C96DD8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="设计图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1.000000, -20.000000)">
+            <g id="Group-20" transform="translate(1.000000, 20.000000)">
+                <rect id="Rectangle-14" fill="url(#linearGradient-1)" x="0" y="43" width="375" height="50"></rect>
+                <g id="Group-13" transform="translate(169.462163, 44.000000)">
+                    <ellipse id="Oval-Copy-7" fill="#F8E81C" opacity="0.800000012" cx="132.769419" cy="35.25" rx="2.41743208" ry="2.4251269"></ellipse>
+                    <ellipse id="Oval-Copy-16" fill="#FFFFFF" opacity="0.200000003" cx="1.86453403" cy="35.0634518" rx="1.11573788" ry="1.11928934"></ellipse>
+                    <ellipse id="Oval-Copy-17" fill="#FFFFFF" opacity="0.200000003" cx="31.6175443" cy="42.8984772" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval-Copy-10" fill="#FFFFFF" opacity="0.200000003" cx="25.4809859" cy="31.1459391" rx="1.67360683" ry="1.67893401"></ellipse>
+                    <ellipse id="Oval-Copy-5" fill="#FFFFFF" opacity="0.200000003" cx="132.919449" cy="2.49111675" rx="1.67360683" ry="1.67893401"></ellipse>
+                    <ellipse id="Oval-Copy-6" fill="#FFFFFF" opacity="0.200000003" cx="114.695731" cy="20.7728426" rx="1" ry="1"></ellipse>
+                    <polygon id="Triangle" fill="url(#linearGradient-2)" transform="translate(157.516875, 5.472345) scale(-1, 1) rotate(89.000000) translate(-157.516875, -5.472345) " points="157.516875 2.67412178 159.934308 8.27056848 155.099443 8.27056848"></polygon>
+                </g>
+                <g id="Group-19" fill="#2D8DFF">
+                    <g id="Navigation-Bar-–-No-Status-Copy">
+                        <rect id="Rectangle-8" x="0" y="0" width="375" height="44"></rect>
+                    </g>
+                    <g id="Navigation-Bar-–-No-Status-Copy" transform="translate(0.000000, 5.000000)">
+                        <rect id="Rectangle-8" x="0" y="0" width="375" height="44"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

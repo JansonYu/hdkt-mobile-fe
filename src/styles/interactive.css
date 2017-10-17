@@ -16,7 +16,7 @@ body {
   display: inline-block;
   position: relative;
   top: -0.097rem;
-  border-radius: 0.1rem;
+  border-radius: 0.08rem;
 }
 .inter-header .bar.left {
   margin-right: 0.267rem;
@@ -25,16 +25,17 @@ body {
   margin-left: 0.267rem;
 }
 .inter-header .bar.yellow {
-  background: #F76B1C;
-  background: -moz-linear-gradient(left, #F76B1C, #FBDA61);
+  /*background: -moz-linear-gradient(left,#F76B1C,#FBDA61);*/
+  background: #F76B1C url(../images/interactive/bar_1.svg) no-repeat;
+  background-size: 100% 100%;
 }
 .inter-header .bar.purple {
-  background: #3023AE;
-  background: -moz-linear-gradient(left, #3023AE, #C96DD8);
+  background: #3023AE url(../images/interactive/bar_2.svg) no-repeat;
+  background-size: 100% 100%;
 }
 .inter-header .bar.blue {
-  background: #53A0FE;
-  background: -moz-linear-gradient(left, #53A0FE, #B4ED50);
+  background: #53A0FE url(../images/interactive/bar_3.svg) no-repeat;
+  background-size: 100% 100%;
 }
 .inter-header .type {
   font-size: 0.373rem;
@@ -49,8 +50,21 @@ body {
   display: inline-block;
   border-radius: 2.667rem;
   position: absolute;
-  right: 1.6rem;
+  right: 1.7rem;
   top: 0;
+}
+.inter-header .more .icon {
+  width: 0.32rem;
+  height: 0.213rem;
+  display: inline-block;
+  position: relative;
+  top: 0.027rem;
+}
+.inter-header .more .icon.up {
+  background: url(../images/interactive/icon_up.png);
+}
+.inter-header .more .icon.down {
+  background: url(../images/interactive/icon_down.png);
 }
 .radius-grid {
   /*width: 9.467rem;*/
@@ -85,13 +99,17 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background: #FF4669;
-  background: -moz-linear-gradient(top, #FF8A74, #FF4669);
   -ms-flex-preferred-size: 2.133rem;
   flex-basis: 2.133rem;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-radius: 0.107rem 0 0 0.107rem;
+}
+.radius-grid .left.seven {
+  background: #FF4669 url(../images/interactive/class_bg1.png) no-repeat;
+}
+.radius-grid .left.eight {
+  background: #FFA336 url(../images/interactive/class_bg2.png) no-repeat;
 }
 .radius-grid .left .grade {
   font-size: 0.907rem;
@@ -227,6 +245,15 @@ body {
   background-size: 100%;
   border-radius: 0.107rem 0.107rem 0 0;
   position: relative;
+}
+.class-grid .top .icon-stu {
+  display: inline-block;
+  width: 0.347rem;
+  height: 0.293rem;
+  background: url(../images/class/icon-stu.png) no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 0.08rem;
 }
 .class-grid .top .more {
   color: #fff;
@@ -536,7 +563,7 @@ body {
 }
 .more-wrap .set-panel .class {
   padding: 0 0.667rem 0.533rem;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #F0F1F6;
 }
 .more-wrap .set-panel .class .box {
@@ -621,7 +648,9 @@ body {
   column-rule: #fff;
   background: #2D8DFF;
   width: 100%;
-  background-image: linear-gradient(0deg, #59C1FF 0%, #2D8DFF 80%);
+  background: #2D8DFF url(../images/class/title_bg3x.png) no-repeat;
+  background-size: 100% ;
+  background-position: bottom right;
 }
 .mark-wrap .tab .item {
   color: #fff;
@@ -633,6 +662,13 @@ body {
   display: inline-block;
   width: 1.6rem;
   height: 1.2rem;
+  position: relative;
+}
+.mark-wrap .tab .item.right span {
+  right: -0.4rem;
+}
+.mark-wrap .tab .item.left span {
+  left: -0.4rem;
 }
 .mark-wrap .tab .item.active span {
   border-bottom: 0.053rem solid #fff;
@@ -642,11 +678,14 @@ body {
   min-height: 10.667rem;
   background: #fff;
 }
+.mark-wrap .mark-info .container {
+  max-width: 10rem;
+}
 .mark-wrap .mark-info .type {
   font-size: 0.373rem;
   color: #9496AB;
   text-align: center;
-  border-top: 1px solid #9496AB;
+  border-top: 1px solid #EDEEF2;
   margin: 0.267rem 0;
 }
 .mark-wrap .mark-info .type span {
@@ -799,7 +838,7 @@ body {
   line-height: 0.64rem;
 }
 .analysis-wrap .content {
-  border-bottom: 1px solid #9496AB;
+  border-bottom: 1px solid rgba(148, 150, 171, 0.3);
   padding-bottom: 0.4rem;
   margin-bottom: 0.533rem;
 }
@@ -923,4 +962,116 @@ body {
   margin: 1.067rem auto;
   box-shadow: 0.053rem 0.133rem 0.107rem 0 rgba(245, 166, 35, 0.22);
   border-radius: 0.107rem;
+}
+.mask-layer {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  z-index: 9998;
+}
+.modal-alert {
+  width: 7.867rem;
+  height: 4.933rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -3.933rem;
+  margin-top: -2.467rem;
+  background: #fff;
+  border-radius: 0.16rem;
+  z-index: 9999;
+}
+.modal-alert .title {
+  font-size: 0.48rem;
+  color: #FFFFFF;
+  line-height: 1.333rem;
+  height: 1.333rem;
+  background: #2D8DFF;
+  text-align: center;
+  border-radius: 0.16rem 0.16rem 0 0;
+  background: url(../images/class/modal_bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+.modal-alert .content {
+  font-size: 0.4rem;
+  text-align: center;
+  padding: 1.067rem 0;
+  color: #303451;
+  line-height: 0.4rem;
+}
+.modal-alert .bottom {
+  height: 1.067rem;
+  line-height: 1.067rem;
+  border-top: 1px solid #F4F4F8;
+  font-size: 0.4rem;
+}
+.modal-alert .bottom a {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+.modal-alert .bottom a.ok {
+  color: #9496AB;
+  border-right: 1px solid #F4F4F8;
+}
+.modal-alert .bottom a.cancel {
+  color: #2D8DFF;
+}
+/*设置*/
+.set-wrap {
+  font-size: 0.373rem;
+}
+.set-wrap .title {
+  color: #303451;
+}
+.set-wrap .title .iconfont {
+  font-size: 0.533rem;
+  color: #2D8DFF;
+  float: right;
+}
+.s-panel {
+  padding: 0 0.533rem;
+  background: #fff;
+  margin-bottom: 0.267rem;
+  font-size: 0.373rem;
+  color: #303451;
+  line-height: 0.6rem;
+}
+.s-panel .panel-item {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.373rem;
+  color: #303451;
+  position: relative;
+  border-bottom: 1px solid rgba(148, 150, 171, 0.3);
+  text-align: left;
+}
+.s-panel .panel-item.tac {
+  text-align: center;
+}
+.s-panel .panel-item.red {
+  color: #FD665A;
+}
+.s-panel .panel-item .right {
+  color: #9496AB;
+  font-size: 0.32rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.s-panel .panel-item .right.c30 {
+  color: #303451;
+}
+.s-panel .panel-item .right .arrow {
+  width: 0.213rem;
+  height: 0.347rem;
+  display: inline-block;
+  background: url(../images/more/to_item.svg) no-repeat;
+  background-size: 100% 100%;
+  vertical-align: sub;
+  margin-left: 0.267rem;
 }
